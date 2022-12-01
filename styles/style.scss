@@ -9,6 +9,13 @@ body {
     background-color: $gradient-color;
 }
 
+/** Navigation Section **/
+.fa-otter {
+    &:hover {
+        color: blue;
+    }
+}
+
 /** Hero Section **/
 .hero-text {
 
@@ -52,4 +59,11 @@ body {
         font-family: $pencil;
         font-size: 1.25rem;
     }
+}
+
+/** Home Portfolio Section **/
+
+.gal-img {
+    width: 100%;
+    height: 100%;
 }
