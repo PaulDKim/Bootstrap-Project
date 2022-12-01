@@ -1,0 +1,55 @@
+@import './variables';
+
+/** Global Section **/
+body {
+    font-family: $inconsolata;
+}
+
+.btn {
+    background-color: $gradient-color;
+}
+
+/** Hero Section **/
+.hero-text {
+
+    h1 {
+        @include pencilHeader;
+    }
+
+    h3 {
+        @include pencilHeader;
+
+        &::after {
+            content: '';
+            height: 2px;
+            width: 23vw;
+            background: black;
+            display: inline-block;
+            margin-left: 10px;
+            transform: translateY(-10px);
+        }
+    }
+}
+
+@media screen and (max-width: 1196px) {
+    .hero-img {
+        padding-top: 5.5rem;
+    }
+}
+
+.hero-div {
+    padding-top: 10rem;
+}
+
+/** Home Page Introduction **/
+
+.brief-intro {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-family: $pencil;
+        font-size: 1.25rem;
+    }
+}

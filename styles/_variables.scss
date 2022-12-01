@@ -1,0 +1,14 @@
+/** Fonts **/
+$noto: 'Noto Sans', sans-serif;
+$pencil: 'Indie Flower', cursive;
+$recursive: 'Recursive', sans-serif;
+$inconsolata: 'Inconsolata', monospace;
+
+/** Colors **/
+$gradient-color: linear-gradient(90deg, #4458dc, #854fee, 100%);
+$box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+@mixin pencilHeader {
+    font-family: $pencil;
+    font-weight: 700;
+}

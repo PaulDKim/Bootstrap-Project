@@ -1,0 +1,47 @@
+/** Fonts **/
+/** Colors **/
+/** Global Section **/
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.btn {
+  background-color: linear-gradient(90deg, #4458dc, #854fee, 100%);
+}
+
+/** Hero Section **/
+.hero-text h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+.hero-text h3 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+.hero-text h3::after {
+  content: "";
+  height: 2px;
+  width: 23vw;
+  background: black;
+  display: inline-block;
+  margin-left: 10px;
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 1196px) {
+  .hero-img {
+    padding-top: 5.5rem;
+  }
+}
+.hero-div {
+  padding-top: 10rem;
+}
+
+/** Home Page Introduction **/
+.brief-intro h2 {
+  font-size: 1.5rem;
+}
+.brief-intro p {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.25rem;
+}/*# sourceMappingURL=style.css.map */
