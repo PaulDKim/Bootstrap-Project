@@ -1,0 +1,35 @@
+@import './variables';
+
+* {
+    box-sizing: border-box;
+
+}
+
+/** Body **/
+body {
+    font-family: $inconsolata;
+}
+
+/** Navigation **/
+.fa-otter {
+    &:hover {
+        color: blue;
+    }
+}
+
+/** Footer **/
+footer {
+    font-family: $pencil;
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.25rem;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
