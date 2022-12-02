@@ -1,0 +1,174 @@
+/** Fonts **/
+/** Colors **/
+/** Fonts **/
+/** Colors **/
+* {
+  box-sizing: border-box;
+}
+
+/** Body **/
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+/** Navigation **/
+.fa-otter:hover {
+  color: blue;
+}
+
+/** Footer **/
+footer {
+  font-family: "Indie Flower", cursive;
+}
+footer p {
+  font-size: 1.25rem;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/** Fonts **/
+/** Colors **/
+/** Hero Section **/
+.hero-text h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+.hero-text h3 {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+.hero-text h3::after {
+  content: "";
+  height: 2px;
+  width: 23vw;
+  background: black;
+  display: inline-block;
+  margin-left: 10px;
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 1196px) {
+  .hero-img {
+    padding-top: 5.5rem;
+  }
+}
+.hero-div {
+  padding-top: 10rem;
+}
+
+/** Home Page Introduction **/
+.brief-intro h2 {
+  font-size: 1.5rem;
+}
+.brief-intro p {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.25rem;
+}
+
+/** Home Portfolio Section **/
+.gal-img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-subtitle {
+  font-family: "Indie Flower", cursive;
+}
+
+/** Fonts **/
+/** Colors **/
+/** Fonts **/
+/** Colors **/
+* {
+  box-sizing: border-box;
+}
+
+/** Body **/
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+/** Navigation **/
+.fa-otter:hover {
+  color: blue;
+}
+
+/** Footer **/
+footer {
+  font-family: "Indie Flower", cursive;
+}
+footer p {
+  font-size: 1.25rem;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.about-header {
+  z-index: 2;
+}
+
+/** About Hero Section **/
+.about-hero {
+  color: whitesmoke;
+  height: 100vh;
+}
+.about-hero .about-container {
+  height: 100%;
+}
+.about-hero .about-container .row {
+  height: 100%;
+}
+.about-hero .about-container .row .about-hero-text {
+  height: 100%;
+  background-color: #252834;
+}
+.about-hero .about-container .row .about-hero-text .vert-title {
+  transform: rotate(-90deg);
+  margin-right: 11rem;
+}
+.about-hero .about-container .row .about-hero-text .about-title {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+.about-hero .about-container .row .about-hero-img {
+  width: 100%;
+  min-height: 100%;
+}
+.about-hero .about-container .about-hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+/** Info Box CSS **/
+.info-box {
+  max-width: 860px;
+  background-color: #b46357;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  padding: 4.5rem;
+  color: whitesmoke;
+  font-family: "Indie Flower", cursive;
+  border-radius: 10px;
+}
+
+/** carousel **/
+#myCarousel {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#myCarousel .carousel-header {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
