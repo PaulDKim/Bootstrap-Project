@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/eb6f950827.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation/Header-->
+    <header class="position-fixed start-0 end-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-5" href="#"><i class="fa-solid fa-otter"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse pe-5" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="portfolio-hero container-fluid d-flex align-items-center justify-content-center">
+        <div class="text-container d-flex flex-column align-items-center justify-content-center">
+            <h1>My Proudest Achievements</h1>
+            <h3>Drive. Intuition. <span class="red-text">Passion.</span></h3>
+        </div>
+    </section>
+
+    <!-- Project Selection Section -->
+    <section class="port-card-container container">
+        <div class="row">
+            <div class="col-lg-4 col-md-2">
+                <div class="project-container">
+                    <div class="row proj-content-container">
+                        <img src="./images/project1.avif" alt="cards" class="project-image">
+                    </div>
+                    <div class="row proj-content-container text-center">
+                        <h3>Card Animation</h3>
+                        <p class="proj-text">
+                            The card slides up when the user hovers over it, revealing extra information on the topic!
+                        </p>
+                        <div class="col">
+                            <a class="btn btn-primary" role="button"
+                                href="https://codepen.io/PaulDohKim/pen/MWrOWEe">Take a Look!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-2">
+                <div class="project-container">
+                    <div class="row proj-content-container">
+                        <img src="./images/project2.avif" alt="cards" class="project-image">
+                    </div>
+                    <div class="row proj-content-container text-center">
+                        <h3>Typewriter Animation</h3>
+                        <p class="proj-text">
+                            When a page loads, a keyboard typing animation appears on the user's screen!
+                        </p>
+                        <div class="col">
+                            <a class="btn btn-primary" role="button"
+                                href="https://codepen.io/PaulDohKim/pen/MWrOWEe">Take a Look!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-2">
+                <div class="project-container">
+                    <div class="row proj-content-container">
+                        <img src="./images/portfolio-v1.avif" alt="cards" class="project-image">
+                    </div>
+                    <div class="row proj-content-container text-center">
+                        <h3>First Portfolio</h3>
+                        <p class="proj-text">
+                            The first website I've built, and I plan to keep improving my development and design skills!
+                        </p>
+                        <div class="col">
+                            <a class="btn btn-primary" role="button"
+                                href="https://codepen.io/PaulDohKim/pen/MWrOWEe">Take a Look!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Transitional Section // Picture Design -->
+    <section class="port-transition"></section>
+
+    <!-- Reach Out Section -->
+    <section class="port-interest">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6">
+                    <h2>
+                        Interested in Collaborating?
+                    </h2>
+                </div>
+
+                <div class="col-lg-6">
+                    <a href="#" class="btn btn-primary" role="button">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="d-flex flex-column align-items-center justify-content-center night-footer">
+        <p class="mb-1">Designed & Built by Paul Kim</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/paul-kim-a98162256"><i
+                    class="fa-brands fa-linkedin night-link"></i></a>
+            <a href="https://github.com/PaulDKim"><i class="fa-brands fa-github night-link"></i></a>
+            <a href="https://codepen.io/PaulDohKim"><i class="fa-brands fa-codepen night-link"></i></a>
+            <a href="https://www.instagram.com/paul_dkim/"><i class="fa-brands fa-instagram night-link"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
