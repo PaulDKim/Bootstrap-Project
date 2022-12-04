@@ -1,0 +1,76 @@
+@import './variables';
+
+.portfolio-hero {
+    height: 100vh;
+    background-image: url('../images/portfolio-hero.jpg');
+    background-position: center;
+    background-size: fill;
+    background-attachment: fixed;
+
+    .text-container {
+        background-color: $soft-black;
+        color: whitesmoke;
+        border-radius: 10px;
+        padding: 2rem;
+
+        .red-text {
+            @include pencilHeader;
+            font-size: 2.5rem;
+            color: red;
+        }
+    }
+}
+
+/** Portfolio Card Section **/
+.port-card-container {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .project-container {
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .proj-content-container {
+            height: 50%;
+        }
+
+        .project-image {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .proj-text {
+        @include pencilHeader;
+    }
+}
+
+/** Portfolio Transitional Section **/
+.port-transition {
+    background-image: url('../images/port-transition.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+
+/** Interest/Contact Section **/
+.port-interest {
+    background-color: $soft-black;
+    padding: 5rem 0 5rem 0;
+    color: whitesmoke;
+}
+
+/** Night Footer **/
+.night-footer {
+    background-color: $soft-black;
+    color: white;
+
+    .night-link {
+        color: white;
+
+        &:hover {
+            color: red;
+        }
+    }
+}

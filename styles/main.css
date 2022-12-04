@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /** Body **/
 body {
   font-family: "Inconsolata", monospace;
@@ -86,6 +90,10 @@ footer a {
 /** Colors **/
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /** Body **/
@@ -171,4 +179,75 @@ footer a {
 #myCarousel .carousel-header {
   font-family: "Indie Flower", cursive;
   font-weight: 700;
+}
+
+/** Fonts **/
+/** Colors **/
+.portfolio-hero {
+  height: 100vh;
+  background-image: url("../images/portfolio-hero.jpg");
+  background-position: center;
+  background-size: fill;
+  background-attachment: fixed;
+}
+.portfolio-hero .text-container {
+  background-color: #252834;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.portfolio-hero .text-container .red-text {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: red;
+}
+
+/** Portfolio Card Section **/
+.port-card-container {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.port-card-container .project-container {
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.port-card-container .project-container .proj-content-container {
+  height: 50%;
+}
+.port-card-container .project-container .project-image {
+  height: 100%;
+  width: 100%;
+}
+.port-card-container .proj-text {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}
+
+/** Portfolio Transitional Section **/
+.port-transition {
+  background-image: url("../images/port-transition.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 400px;
+}
+
+/** Interest/Contact Section **/
+.port-interest {
+  background-color: #252834;
+  padding: 5rem 0 5rem 0;
+  color: whitesmoke;
+}
+
+/** Night Footer **/
+.night-footer {
+  background-color: #252834;
+  color: white;
+}
+.night-footer .night-link {
+  color: white;
+}
+.night-footer .night-link:hover {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
