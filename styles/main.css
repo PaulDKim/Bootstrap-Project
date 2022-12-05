@@ -277,4 +277,25 @@ footer a {
 }
 
 /** Fonts **/
-/** Colors **//*# sourceMappingURL=main.css.map */
+/** Colors **/
+.services-hero {
+  min-height: 85vh;
+  padding-top: 1rem;
+  background-color: hsl(49deg, 37%, 94%);
+}
+.services-hero h1 {
+  color: whitesmoke;
+}
+.services-hero img {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+}
+
+.services-main {
+  padding: 4rem 0 4rem 0;
+}
+.services-main p {
+  font-family: "Indie Flower", cursive;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
