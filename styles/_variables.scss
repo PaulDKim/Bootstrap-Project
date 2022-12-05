@@ -8,6 +8,7 @@ $inconsolata: 'Inconsolata', monospace;
 $gradient-color: linear-gradient(90deg, #4458dc, #854fee, 100%);
 $soft-black: #252834;
 $soft-red: #b46357;
+$dark-blue-alpha: rgba(27, 27, 50, 0.8);
 
 @mixin pencilHeader {
     font-family: $pencil;

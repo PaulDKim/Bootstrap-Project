@@ -1,1 +1,28 @@
 @import './variables';
+
+/** Contact Form Styling **/
+.contact-section {
+    min-height: 100vh;
+    color: whitesmoke;
+    background-image: linear-gradient(180deg, rgba(141, 135, 170, 0.9), rgba(141, 135, 170, 0.4)),
+
+        url('../images/contact-page.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    .form-title {
+        margin-top: 5rem;
+    }
+
+    .contact-form {
+        background-color: $dark-blue-alpha;
+        padding: 2rem;
+        margin-bottom: 12rem;
+        border-radius: 10px;
+
+        .form-check {
+            margin-left: 15px;
+        }
+    }
+}

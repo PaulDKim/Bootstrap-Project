@@ -255,6 +255,23 @@ footer a {
 /** Fonts **/
 /** Colors **/
 /** Contact Form Styling **/
-.contact-form {
-  margin-top: 3rem;
+.contact-section {
+  min-height: 100vh;
+  color: whitesmoke;
+  background-image: linear-gradient(180deg, rgba(141, 135, 170, 0.9), rgba(141, 135, 170, 0.4)), url("../images/contact-page.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.contact-section .form-title {
+  margin-top: 5rem;
+}
+.contact-section .contact-form {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 2rem;
+  margin-bottom: 12rem;
+  border-radius: 10px;
+}
+.contact-section .contact-form .form-check {
+  margin-left: 15px;
 }/*# sourceMappingURL=main.css.map */
